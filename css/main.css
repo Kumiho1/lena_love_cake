@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: 000;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+padding: 0;
+margin: 0;
+}
+
+ul, li {
+    display: block;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../img/fon.jpg') no-repeat center top / cover;
+}
+header a {
+    color: rgb(255, 255, 255);
+}
+
+.menu {
+    display: inline-flex;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav {
+    display: inline-flex;
+    align-items: center;
+}
+
+.tel {
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 100px;
+}
+.logo {
+    font-family: 'Federo';
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+.mainheader {
+    margin-top: 120px ; 
+    width: 620px;
+}
+.let {
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    color: #3E018B;
+}
+.let1 {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 50px;
+}
+.btn {
+    width: 270px;
+    font-family: 'Open Sans';
+    font-size: 25px;
+    background: #A572E7;
+    border-radius: 100px;
+    color: #FFFFFF;
+    margin-top: 63px;
+    margin-bottom: 200px;
+}
+.foto {
+    margin-top: 50px;
+    margin-left: -200px;
+    margin-right: 20px;
+}
+.maintext {
+    width: 800px;
+    text-align: justify;
+}
+.name {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+}
+.maininfo {
+    display: flex;
+}
+.cart {
+    display: grid;
+    width: 225px;
+height: 295px;
+background: rgb(255, 255, 255);
+border-radius: 25px;
+margin-top: 20px;
+text-align: center;
+font-size: 25px;
+border: 0px;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+margin-right: 74px;
+}
+.cake {
+    margin-left: -5px;
+    margin-right: auto;
+    margin-top: -15px;
+    
+}
+.namecart {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#footer {
+    width: 100%;
+    background: #A572E7;
+}
+
+.foot {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+ .icon {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+ }
+
+ .foot_text {
+    color:white;
+    margin: auto;
+ }
