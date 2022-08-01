@@ -1,3 +1,22 @@
+@keyframes fun {
+    0%  {
+        transform: skew(0,0);
+    }
+    25% {
+        transform: skew(30deg,0);
+    }
+    50% {
+        transform: skew(0,0);
+    }
+    75% {
+        transform: skew(-30deg,0);
+    }
+    100% {
+        transform: skew(0,0);
+    }
+}
+
+
 body {
     padding: 0;
     margin: 0;
@@ -141,4 +160,32 @@ margin-right: 74px;
  .foot_text {
     color:white;
     margin: auto;
+ }
+
+ .cake {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    animation: fun 4s infinite ;
+ }
+
+ .layer {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+ }
+ 
+ .filling {
+    position: relative;
+    max-height: 80px;
+    object-fit: cover;
+ }
+
+ .interlayer {
+    max-height: 40px;
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
  }
