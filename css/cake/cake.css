@@ -30,10 +30,25 @@
     transform-origin: bottom;
  }
 
+.candles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.candle {
+    max-height: 130px;
+    object-fit: contain;
+
+}
+
  .layer {
     width: 100%;
     height: 80px;
     object-fit: cover;
+ }
+
+ .crem {
+    background-color: rgb(246, 247, 225);
  }
  
  .filling {
