@@ -26,8 +26,9 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    animation: fun 2s infinite;
+    animation: fun 1.8s infinite;
     transform-origin: bottom;
+    position: relative;
  }
 
 .candles {
